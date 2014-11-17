@@ -21,6 +21,9 @@ class Test(unittest.TestCase):
         today = datetime.datetime.now()
         print today
         print 'ended'
+        response_file='testresult'
+        with open(response_file,"w") as f:
+        f.write('sucess')
 
     def is_element_present(self, how, what):
         try: self.driver.find_element(by=how, value=what)
