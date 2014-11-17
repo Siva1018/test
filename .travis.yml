@@ -8,5 +8,5 @@ notifications:
     - sivadhanamjay@aptuz.com
 addons:
   sauce_connect:
-    username: "Siva1018"
-    access_key: "Backspace9"
+    username: Siva1018
+    access_key: Backspace9
