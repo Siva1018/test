@@ -23,7 +23,7 @@ class Test(unittest.TestCase):
         print 'ended'
         response_file='testresult'
         with open(response_file,"w") as f:
-            f.write('sucess')
+            f.write('sucess11')
 
     def is_element_present(self, how, what):
         try: self.driver.find_element(by=how, value=what)
